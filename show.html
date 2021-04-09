@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>show - Mini Project in JS</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
+    />
+    <link rel="stylesheet" href="assets/css/Social-Icons.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body onload=" checkLinkOn();">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://sachinabs.github.io/testJokes/">Random Jokes</a>
+      </div>
+    </nav>
+
+    <div class="highlight-clean">
+      <div class="container">
+        <div class="intro">
+          <h2 class="text-center bounce animated">Jokes</h2>
+          <h6 id="SetUp">Loading...</h6>
+        </div>
+
+        <div class="buttons">
+          <p id="punch"></p>
+          <button
+            class="btn btn-primary"
+            role="button"
+            href="showPunchLine"
+            onclick="punchLine();"
+            >See Punchline</button
+          >
+          <button class="btn btn-light" type="button" onclick="BringMeMore();">
+            See more Jokes</button
+          ><br />
+
+
+          <div class="container3">
+            <h6 id="box1"></h6>
+            <p id="box2"></p>
+          </div>
+
+          <div class="container3">
+            <h6 id="box3"></h6>
+            <p id="box4"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/custom-js/show.js"></script>
+  </body>
+</html>
